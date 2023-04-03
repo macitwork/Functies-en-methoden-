@@ -12,12 +12,17 @@
 
 function getEmailDomain(email) {
     // const atIndex = email.indexOf('@');
-    if (atIndex !== -1) {
-        return email.slice(atIndex + 1);
+    if (atIndex!== -1) {
+        return atIndex.slice(atIndex + 1);
     } else {
         return null; // Geen geldig emailadres
     }
 }
+const email = 'voorbeeld@email.com';
+const atIndex = email.indexOf('@');
+const domain = email.substring(atIndex + 1);
+console.log(domain); // output: "email.com"
+
 
 // Testen van de functie
 console.log(getEmailDomain("n.eeken@novi-education.nl")); // verwachte uitkomst: novi-education.nl
