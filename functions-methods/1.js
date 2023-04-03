@@ -3,7 +3,7 @@
 
 
 /* Opdracht  1 */
-// Schrijf een functie genaamd getEmailDomain, die een emailadres verwacht en de domeinnaam teruggeeft. Een domeinnaam is hetgeen dat na het @ in het adres staat
+// Schrijf een functie genaamd getEmailDomain, die een emailadres verwacht en de domeinnaam teruggeeft. Een domeinnaam is het geen dat na het @ in het adres staat
 // ---- Verwachte uitkomsten:
 // getEmailDomain("n.eeken@novi-education.nl") geeft novi-education.nl
 // getEmailDomain("t.mellink@novi.nl") geeft novi.nl
@@ -12,7 +12,7 @@
 
 function getEmailDomain(email) {
     // const atIndex = email.indexOf('@');
-    if (atindex !== -1) {
+    if (atIndex !== -1) {
         return email.slice(atIndex + 1);
     } else {
         return null; // Geen geldig emailadres
