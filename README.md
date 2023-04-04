@@ -42,3 +42,4 @@ Als je wisselt van bestand moet je nodemon eerst stoppen (ctrl + c voor zowel Wi
 
 nodemon `functions-and-scope.js`
 That's All Folks!
+nodemon nodemon
